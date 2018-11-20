@@ -1,0 +1,47 @@
+< Team Project Memo (Data Structure Design) >
+
+* 일시 : 2018년 11월 16일(금) 15시 ~ 18시
+
+* 논의 내용
+
+
+1. Solving Problem & Experiment 발표준비
+
+- 주제 재소개 (Base Problem + Additional Problem)
+
+- 언어 / 개발환경 (C++ / Visual Studio)
+
+("Solving Problem")
+
+- 자료구조(노트에 정리한 내용을 바탕으로 ppt 작성)
+      ㄴ(세분화 필요)
+
+강의실 정보 표현 방법 -> Up Table, Down Table 및 결과 테이블(비효율성 어떻게 보여줄지에 대한 문제)
+
+각 층별로 교차점 Node 설정 및 이동수단 Node 설정 & 좌표 설정(기준점 필요)
+
+- 대략적인 GUI Design
+
+("Experiment")
+
+- 엘리베이터 측정 시간 및 구한 방법 (공식 유도)
+
+(열리고 닫히는 시간 제외)
+
+1-12층 29.1초
+1-9층 24.7초
+9~12층 15.7초
+3~4층 11.28초
+
+*체감 최고속도 도달시간 5~6초 (3~4층)
+
+
+2. Team Plan
+
+ㄱ. 11월 21일(수)에 팀플룸에 모여서 implement 시작 (데이터 가공을 완료했으니 Algorithm 및 UI 구현)
+
+ㄴ. 단면도를 바탕으로 각 층별로 교차점 Node 설정 및 이동수단 Node 설정 & 좌표 설정(기준점 필요)
+
+ㄷ. 만원 기준 정하기 (약 15명 ~ 20명)
+
+ㄹ. 결과 테이블 보여주는 방법 논의 (UI 관련)
