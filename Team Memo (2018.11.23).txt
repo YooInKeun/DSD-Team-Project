@@ -1,0 +1,70 @@
+< Team Project Memo (Data Structure Design) >
+
+* 일시 : 2018년 11월 23일(금) 15시 ~ 17시
+
+* 장소 : 중앙대 도서관 팀플룸2 
+
+* 논의 내용
+
+
+1. 자료구조 구현
+
+- 멤버 변수 및 멤버 함수 정의
+
+#ifndef MYGRAPH_H
+#define MYGRAPH_H
+#include<map>
+#include<string>
+#include"Crosspoint.h"
+
+using namespace std;
+
+class MyGraph {
+   map<string, Crosspoint> map;
+public:
+   MyGraph();                     //initialize using CSV file.
+   Crosspoint getCross(string name);
+   void insertCross(string name, Crosspoint point);
+};
+#endif // !GRAPH_H
+
+------------------------------------------------------------
+
+#ifndef CROSSPOINT_H
+#define CROSSPOINT_H
+#include<list>
+
+class Crosspoint {
+   string name;
+   list<string> adjList;   //인접 교차점의 이름 list
+   
+public:
+   inline void addAdj(string name);
+};
+#endif // !CROSSPOINT_H
+
+#pragma once
+------------------------------------------------------------
+
+#ifndef CLASSROOM_H
+#define CLASSROOM_H
+
+class Classroom{
+   string name;
+   int up[100][100];
+   int down[100][100];
+}
+
+#endif // !CLASSROOM_H
+
+------------------------------------------------------------
+
+2. Team Plan
+
+- csv 파일 읽어오기 구현
+
+- Up Tabel, Down Table 구현
+
+- 멤버 함수 구현 - 특히, 길 찾기 알고리즘 (다익스트라 알고리즘)
+
+- QT 계속적으로 진행
