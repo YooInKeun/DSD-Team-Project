@@ -1,0 +1,24 @@
+﻿  Classroom.cpp
+  CNode.cpp
+  CSVRow.cpp
+  main.cpp
+  MyGraph.cpp
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(73): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(86): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(113): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(218): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(228): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(266): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(290): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(296): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(317): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(363): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(388): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(394): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(418): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\utility(235): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(498): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<std::string,float>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(498): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<std::string,float>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept'에 대한 참조를 확인하십시오.
+  코드를 생성하고 있습니다...
+c:\users\유인근\desktop\chicken310\chicken310\mygraph.cpp(233): warning C4715: 'MyGraph::computeStairTime': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Chicken310.vcxproj -> C:\Users\유인근\Desktop\Chicken310\Debug\Chicken310.exe
