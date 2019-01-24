@@ -63,7 +63,7 @@ Dynamic Map on @100(Team Project)
 
 - UP, DOWN Table로 세분화
 
-(UP Table : 1층에서 올라가는 인원 / DOWN Table : n층에서 1층으로 내려오는 인원)
+ (UP Table : 1층에서 올라가는 인원 / DOWN Table : n층에서 1층으로 내려오는 인원)
 ```
 
 <br/>
